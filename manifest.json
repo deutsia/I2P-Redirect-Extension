@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "I2P URL Fixer",
+  "version": "1.0",
+  "description": "Redirects .i2p domains to http:// instead of searching",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
